@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
-      <h2>📤 Upload File</h2>
+      <h2>📤 Upload File data</h2>
       <input type="file" onChange={e => setFile(e.target.files[0])} />
       <button onClick={handleUpload} disabled={!file}>Upload</button>
       <p>Progress: {progress}%</p>
