@@ -24,6 +24,7 @@ export default function Home() {
       <input type="file" onChange={e => setFile(e.target.files[0])} />
       <button onClick={handleUpload} disabled={!file}>Upload</button>
       <p>Progress: {progress}%</p>
+      <p>Raj kumar</p>
     </div>
   );
 }
